@@ -69,9 +69,6 @@ function loadModel() {
                 mapControls.enabled = false;
             });
             dragControls.addEventListener('dragend', function (event) {
-                if (event.object.material.emissive) {
-                    event.object.material.emissive.set(0x000000);
-                }
                 mapControls.enabled = true;
             });
         },
