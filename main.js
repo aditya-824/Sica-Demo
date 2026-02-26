@@ -57,12 +57,12 @@ function init() {
     window.addEventListener('resize', onWindowResize);
 
     // Add event listener for Drive Unit button
-    const driveUnitBtn = document.getElementById('load-driveunit');
+    const driveUnitBtn = document.getElementById('profiles');
     if (driveUnitBtn) {
         driveUnitBtn.addEventListener('click', loadModel1);
     }
 
-    const idlerUnitBtn = document.getElementById('load-idlerunit');
+    const idlerUnitBtn = document.getElementById('accessories');
     if (idlerUnitBtn) {
         idlerUnitBtn.addEventListener('click', loadModel2);
     }
